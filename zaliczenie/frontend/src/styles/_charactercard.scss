@@ -1,0 +1,41 @@
+.character-card{
+    width: 20%;
+    min-height: 25vh;
+    background-image: linear-gradient(207deg, rgba(142, 135, 114, 1) 47%, rgba(204, 43, 35, 1) 100%);
+    margin:10px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 8px 8px 24px -10px rgba(66, 68, 90, 1);
+    h1,h2{
+        text-align: center;
+    }
+   h3{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding:0 40px 0 40px;
+   }
+   .btn{
+    width:100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   button{
+    border: none;
+    outline: none;
+    background-color:#C3B791;
+    width:30%;
+    height:70%;
+    font-size: 20px;
+    border-radius: 5px;
+    &:hover{
+        background-color: gray;
+        color:white;
+        transition:0.5s all ease;
+    }
+   }
+}
+}

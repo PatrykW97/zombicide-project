@@ -1,0 +1,16 @@
+.start-page{
+    width:100%;
+    min-height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main-content{
+        width:50%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+
+    }
+}

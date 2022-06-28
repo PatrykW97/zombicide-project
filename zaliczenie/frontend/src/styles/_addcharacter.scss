@@ -1,0 +1,45 @@
+.add-character-container{
+    min-height: 70vh;
+    input{
+        width:150px;
+        height:30px;
+        background-color: rgb(229, 210, 155);
+        outline: none;
+        box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+        border: none;
+        border-radius: 10px;
+        font-size: 22px;
+    }
+    
+}
+.form-character{
+    display: flex;
+    height:50vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    input{
+        width:30%;
+        height:5vh;
+    }
+    
+}
+.btn-holder{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    button{
+        width:130px;
+        height:40px;
+        background: linear-gradient(180deg, #b62320 0%, #7A2120 100%);
+        border: none;
+        border-radius: 15px;
+        font-size: 15px;
+        color:white;
+        &:hover{
+            background: rgb(99, 99, 99);
+            box-shadow: none;
+            cursor: pointer;
+        }
+    }
+}

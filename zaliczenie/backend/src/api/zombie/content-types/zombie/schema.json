@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zombies",
+  "info": {
+    "singularName": "zombie",
+    "pluralName": "zombies",
+    "displayName": "zombie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "iloscHP": {
+      "type": "integer"
+    },
+    "zasieg": {
+      "type": "integer"
+    },
+    "czymZabic": {
+      "type": "string"
+    },
+    "ileExpa": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "min": 1
+    },
+    "iloscAktywacji": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
